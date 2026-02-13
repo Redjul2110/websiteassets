@@ -21,7 +21,7 @@ assets.forEach(file => {
         element = document.createElement("video");
         element.src = file;
         element.controls = true;
-    }
+    } 
 
     container.appendChild(element);
 
