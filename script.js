@@ -1,6 +1,7 @@
 const assets = [
     "Burn1.mp4",
     "start.mp4",
+    "start.png",
 ];
 
 const gallery = document.getElementById("gallery");
