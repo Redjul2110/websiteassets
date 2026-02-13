@@ -1,4 +1,4 @@
-const assets = [
+const assets = [ 
     "Burn1.mp4",
     "start.mp4",
     "start.png",
