@@ -1,0 +1,41 @@
+body {
+    background: #0f0f0f;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: orange;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.asset {
+    background: #1a1a1a;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.asset:hover {
+    transform: scale(1.05);
+}
+
+img, video {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: orange;
+    border: none;
+    cursor: pointer;
+}
