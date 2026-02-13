@@ -29,7 +29,7 @@ assets.forEach(file => {
     btn.innerText = "Copy URL";
 
     btn.onclick = () => {
-        const url = window.location.origin + "/" + file;
+        const url = window.location.origin + "/websiteassets/" + file;
         navigator.clipboard.writeText(url);
         alert("URL copied!");
     };
