@@ -1,6 +1,6 @@
 const assets = [
-    "image1.png",
-    "video1.mp4"
+    "burn1.mp4",
+    "burn2.mp4"
 ];
 
 const gallery = document.getElementById("gallery");
